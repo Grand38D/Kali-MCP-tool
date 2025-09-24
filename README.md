@@ -101,9 +101,9 @@ cd MCP-Kali-Server
 
 将 `KALI_IP` 替换为您的 Kali Linux 服务器 IP 地址。
 
-#### 5ire 配置
+#### Chatbox 配置
 
-在 5ire 桌面应用程序中：
+在 Chat 桌面应用程序中：
 1. 打开设置
 2. 添加新的 MCP 配置
 3. 输入命令：`python3 /absolute/path/to/mcp_server.py http://KALI_IP:5000`
@@ -135,13 +135,9 @@ export COMMAND_TIMEOUT=300
 
 ## 启动服务
 
-### 标准版本
 
-```bash
-python3 kali_server.py
-```
 
-### FastAPI 版本（推荐）
+### FastAPI 版本
 
 ```bash
 python3 kali_server_fastapi.py
