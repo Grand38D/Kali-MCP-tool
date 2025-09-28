@@ -249,7 +249,7 @@ export TERMINAL_COMMAND_FILE="/path/to/custom_log_file.log"
 6. **命令过滤**：某些命令（如 gobuster 的 -p 参数）已被限制以防止滥用
 
 ---
-"这里的部分代码受到 https://github.com/whit3rabbit0/project_astro 的启发，请务必查看他们的项目",
+
 如有任何问题或建议，请提交 GitHub Issue 或贡献 Pull Request。
 
 **免责声明**：本工具仅用于合法的安全测试和教育目的。使用本工具进行未授权的安全测试是违法的，可能导致法律后果。
